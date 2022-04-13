@@ -1,0 +1,15 @@
+
+.form-container{
+    width: 80%;
+    margin:auto;
+    
+}
+.title{
+    color: blue
+}
+.product-form{
+    display: grid;
+}
+.campo{
+    margin-bottom: 10px;
+}

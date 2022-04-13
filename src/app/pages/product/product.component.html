@@ -1,0 +1,18 @@
+<div class="form-container">
+    <h2 class="title">Creacion de Producto</h2>
+    <form class="product-form">    
+        <input type="file">
+        <label for="name" >Nombre</label>
+        <input class="campo" type="text" placeholder="name" id="nombre" [value]="product.name">
+        <label>Precio</label>
+        <input class="campo" type="text" placeholder="price" id="nombre" [value]="product.price">
+        <label>Cantidad</label>
+        <input class="campo" type="text" placeholder="count" id="nombre" [value]="product.quantity">
+        <label>Ciudades</label>
+        <input class="campo" type="text" placeholder="city" id="nombre" [value]="product.name">
+        <label>Observaciones</label>
+        <textarea  placeholder="escribe aqui tus observaciones" name="observation"></textarea>
+        <button type="button" id="bnt-enviar" [disabled]="btnDisabled" >CREAR PRODUCTO</button>
+        <progress max="1000" [value]="product.price"></progress>
+    </form>
+</div>

@@ -1,0 +1,66 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "producto-prueba",
+            "price": 100, 
+            "stock": 5, 
+            "observations": "none"
+        },
+        {
+            "id": 2,
+            "name": "impresora HP",
+            "price": 500, 
+            "stock": 6, 
+            "observations": "none"
+        },
+        {
+            "id": 3,
+            "name": "monitor 32'",
+            "price": 600, 
+            "stock": 15, 
+            "observations": "none"
+        },
+        {
+            "id": 4,
+            "name": "portatil lenovo",
+            "price": 800, 
+            "stock": 14, 
+            "observations": "none"
+        },
+        {
+            "id": 5,
+            "name": "SSD Adata",
+            "price": 200, 
+            "stock": 25, 
+            "observations": "none"
+        }
+
+    ],
+    "cities": [
+        {
+            "id": 1, 
+            "city": "cali"
+        },
+        {
+            "id": 2, 
+            "city": "medellin"
+        },
+        {
+            "id": 3, 
+            "city": "bogota"
+        },
+        {
+            "id": 4, 
+            "city": "pereira"
+        },
+        {
+            "id": 5, 
+            "city": "barranquilla"
+        },
+        {
+            "id": 6, 
+            "city": "pasto"
+        }
+    ]
+}
