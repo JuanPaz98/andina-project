@@ -5,12 +5,14 @@
     
 }
 .title{
-    color: blue;
-    text-align: center
+    color: darkblue;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
 }
 .product-container{
     display:grid;
-    grid-template-columns: 1fr 1fr;
     gap: 24px;
     margin: 24px
 }
@@ -19,4 +21,42 @@
 }
 .campo{
     margin-bottom: 10px;
+}
+
+th {
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+.btn-edit{
+  width: 70px;
+  margin-right: 5px;
+  background-color: darkblue;
+  color: white;
+  height:30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.btn-delete{
+  width: 70px;
+  margin-left: 5px;
+  background-color: darkred;
+  color: white;
+  height:30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }

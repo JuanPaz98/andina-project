@@ -16,6 +16,11 @@ export class ProductComponent implements OnInit {
     .pipe(
         tap((products: Prod[]) => this.products = products)
     ).subscribe()
+
+    this.prodServ.postProducts(this.products)
+    .pipe(
+        tap((products: Prod[]) => this.products = products)
+    )
    }
 
   ngOnInit(): void {

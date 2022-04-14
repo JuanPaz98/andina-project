@@ -5,3 +5,8 @@ export interface Prod{
     stock: number;
     observations: string;
 }
+
+export interface cities{
+    id: number;
+    city: string;
+}

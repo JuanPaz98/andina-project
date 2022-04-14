@@ -1,7 +1,7 @@
 <div class="list-container">
-    <h2 class="title">Lista de Productos</h2>
+    <h2 class="title">LISTA DE PRODUCTOS</h2> <hr/>
     <div class="product-container">
-        <form class="product-form" *ngFor="let product of products">    
+        <!-- <form class="product-form" *ngFor="let product of products">    
             <input type="file">
             <label for="name" >ID</label>
             <input class="campo" type="text" placeholder="name" id="nombre" disabled value={{product.id}}/>
@@ -13,7 +13,35 @@
             <input class="campo" type="text" placeholder="count" id="nombre" disabled value={{product.stock}} >
             <label>Ciudades</label>
             <input type="text" placeholder="sin ciudades por ahora">
-        </form>
+        </form> -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">NOMBRE</th>
+                    <th scope="col">PRECIO</th>
+                    <th scope="col">CANTIDAD</th> 
+                    <th scope="col">OBSERVACIONES</th>
+                    <th scope="col">CIUDADES</th>
+                    <th scope="col">ACCION</th>
+                </tr>
+            </thead>
+            <tbody  *ngFor="let product of products">
+                <tr>
+                    <td>{{product.id}}</td> 
+                    <td>{{product.name}}</td>
+                    <td>{{product.price}}</td>
+                    <td>{{product.stock}}</td>
+                    <td>{{product.observations}}</td>
+                    <td>nothing yet</td>
+                    <td>
+                        <button class="btn-edit">Edit</button>
+                        <button class="btn-delete">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
     </div>
     <!-- <form class="product-form" *ngFor="let product of products">    
@@ -34,5 +62,3 @@
         <progress max="1000" [value]="product.price"></progress>
     </form> -->
 </div>
-
-<!-- {{products | json}} -->

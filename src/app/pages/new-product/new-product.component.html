@@ -1,0 +1,26 @@
+
+<div class="list-container">
+    <h2 class="title">CREA TU PRODUCTO</h2> 
+    <div class="product-container">
+        <form class="product-form">    <!-- 
+            <input type="file"> -->
+            <label for="name" >Nombre</label>
+            <input class="campo" type="text" placeholder="" required name="name" />
+            <label for="price">Precio</label>
+            <input class="campo" type="text" placeholder="" required name="price" value="">
+            <label for="stock">Cantidad</label>
+            <input class="campo" type="text" placeholder="" required name="stock" value="" >
+            <label for="observaciones" name="observaciones">Observaciones</label>            <input type="text" class="campo" placeholder="Alguna novedad u observacion?">
+            
+            <h3 class="cities-title">Ciudades</h3>
+            <div class="cities-container">
+                <div class="city-options" *ngFor=" let city of cities">
+                    <button class="btn-city" type="button" >{{city.name}} </button>
+                </div>
+            </div>
+            <div class="btn-enviar-container">
+                <button class="btn-enviar" type="submit" >CREAR PRODUCTO</button>
+            </div>
+        </form>        
+    </div>
+</div>

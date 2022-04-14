@@ -1,0 +1,68 @@
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+.title{
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: darkblue;
+}
+.product-container{
+    padding: 40px;
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.product-form{
+    display: grid;
+    width: 600px;
+    margin: auto;
+}
+label{ 
+    font-weight: bold;
+}
+.campo{
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid darkblue;
+    padding: 0 10px ;
+    margin-bottom: 10px;
+}
+.cities-title{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.cities-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn-city{
+    background-color : white;
+    color: darkblue;
+    border: 1px solid darkblue;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-enviar-container{
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.btn-enviar{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: darkblue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,52 @@
+.principal-login-container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bienvenida{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
+.login-container{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    border: 1px solid darkblue;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+.login-form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+label{
+    font-size: 16px;
+    font-weight: bold;
+}
+.campo{
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid darkblue
+}
+.btn-ingresar{
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;;
+}
