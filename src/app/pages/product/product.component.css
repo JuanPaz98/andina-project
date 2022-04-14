@@ -5,7 +5,14 @@
     
 }
 .title{
-    color: blue
+    color: blue;
+    text-align: center
+}
+.product-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin: 24px
 }
 .product-form{
     display: grid;
