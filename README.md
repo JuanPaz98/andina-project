@@ -1,4 +1,4 @@
-# AndinaProject
+<!-- # AndinaProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
@@ -25,3 +25,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ -->
+
+ ##  PRUEBA DE CONOCIMIENTO FRONTEND - ANDINA STORE 
+
+------------
+
+Para que la aplicación funcione correctamente, primero se debe tener node instalado y se debe tener instalado Angular CLI (https://github.com/angular/angular-cli) version 13.3.2. o superior.
+
+- para ejecutar el servidor se debe acceder a la ruta con VS Code (o cualquier editor de código) y ejecutar el script "**ng serve"** y la aplicacion se ejecutará en http://localhost:4200/ 
+- las rutas del proyecto son las siguientes:
+/login   - ** inicio de sesión o ventana principal. **
+/crear-producto  - **modulo de creación de producto**
+/productos  - ** lista de productos **
+
+- el backend está simulado mediante un Json a través de Json server. El script para ejecutarlo es **"npm serverAPI"** y se ejecutará en http://localhost:3000/products. 
+
+#### Nota: por favor leer el "readme.txt" 
